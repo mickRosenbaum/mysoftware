@@ -6,6 +6,7 @@ def welcome():
 
 print("from master")
 print("change1")
+print("change2")
 click()
 welcome()
 
