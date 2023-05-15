@@ -1,7 +1,7 @@
-def click()
+def click():
    print("click")
 
-def welcome()
+def welcome():
    print("new screen")
 
 print("from master")
