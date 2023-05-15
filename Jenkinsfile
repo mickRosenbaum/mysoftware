@@ -13,9 +13,9 @@ pipeline {
             steps {
                 script {
                     if (checkOs() == 'Windows') {
-                        bat 'python test.py'
+                        bat 'python3 test.py'
                     } else {
-                        sh 'python test.py'
+                        sh 'python3 test.py'
                     }
                 }
             }
